@@ -1,0 +1,32 @@
+{
+  "name": "egg-oss-sts",
+  "version": "1.0.0",
+  "description": "Egg's plugin for STS (Security Token Service) supported.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "eggPlugin": {
+    "name": "sts",
+    "env": [
+      "local",
+      "test",
+      "unittest",
+      "prod"
+    ]
+  },
+  "dependencies": {
+    "ali-oss": "^4.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/node-cancer/egg-oss-sts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/node-cancer/egg-oss-sts/issues"
+  },
+  "homepage": "https://github.com/node-cancer/egg-oss-sts#readme"
+}
