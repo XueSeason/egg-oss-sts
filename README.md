@@ -4,6 +4,8 @@ Egg's plugin for STS (Security Token Service) supported.
 
 ## Usage
 
+`npm i egg-oss-sts`
+
 > config/plugin.js
 
 ```javascript
